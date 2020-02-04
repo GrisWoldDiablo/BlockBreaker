@@ -23,7 +23,7 @@ public class MouseMovePaddle : MonoBehaviour, IPointerDownHandler, IDragHandler,
         paddleCode.Pos = pointerPosition.x;
     }
 
-#if UNITY_ANDROID || UNITY_EDITOR
+#if UNITY_ANDROID ||  UNITY_WEBGL || UNITY_STANDALONE
     public void OnPointerDown(PointerEventData eventData)
     {
 

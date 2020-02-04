@@ -9781,7 +9781,6 @@ GameObject:
   - component: {fileID: 2097195843}
   - component: {fileID: 2097195842}
   - component: {fileID: 2097195846}
-  - component: {fileID: 2097195847}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -9891,20 +9890,9 @@ MonoBehaviour:
   - {fileID: 505325729}
   androidHideObjects:
   - {fileID: 1653606946}
---- !u!114 &2097195847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2097195841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 217a974878a3b484091231a856b99b4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  androidShowObjects: []
-  androidHideObjects:
+  - {fileID: 1982053111}
+  webglShowObjects: []
+  webglHideObjects:
   - {fileID: 1982053111}
 --- !u!1 &2108037331
 GameObject:
